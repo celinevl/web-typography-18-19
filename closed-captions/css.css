@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    font-family: "Brenner Bold";
     display: flex;
 }
 
@@ -302,13 +301,13 @@ iframe {
 }
 
 .eind {
-    font-family: "Brenner Sans Light";
+    font-family: "Brenner Sans Regular";
     font-size: 1em;
     margin-top: 15rem;
 }
 
 .eindzin {
-    font-family: "Brenner Sans Light";
+    font-family: "Brenner Sans Regular";
     font-size: 1em;
     margin-top: 15rem;
 }
