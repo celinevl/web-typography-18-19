@@ -115,7 +115,7 @@ iframe {
 }
 
 
-/* Neon effect door https://codepen.io/AllThingsSmitty/pen/VzXrgY and shake effect from https://codemyui.com/pure-css-text-shake-animation/*/
+/* Neon effect door https://codepen.io/AllThingsSmitty/pen/VzXrgY */
 .voice1 {
     color: #fff;
     font-family: "Brenner Mono Regular";
@@ -130,6 +130,7 @@ iframe {
 */
 }
 
+/* shake effect from https://codemyui.com/pure-css-text-shake-animation */
 .shaky {
        animation: .10s shaketext infinite alternate;
 }
@@ -143,6 +144,7 @@ iframe {
   100% { transform: skewX(0deg); }  
 }
 
+/* Met behulp van Jimmy */
 p0 span {
     opacity: 0;
 }
