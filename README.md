@@ -1,59 +1,46 @@
 # Responsive Typography, 2018/2019
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+## Mijn keuzes
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Typografisch heb ik aller eerst gekozen voor het brenner font. Deze keuze heb ik gemaakt om zo hopelijk de meerdere 
+emoties en verschillende stemmen weer te geven. De volgende keuzes in 'Brenner' heb ik gemaakt:
+- Brenner Mono Regular
+Deze is gebruikt voor de 'computer' stem. Ik vond Mono een goed voorbeeld voor een stem die uit een computer komt. 
+Hij is regular in het begin, omdat de vraagstelling nog vrij rusig is. 
+Wanneer de herhalende woorden zoals 'Cells' en 'Intellect' in het fragment beginnen, klinkt de computer nu 
+wat duidelijker en wat dringender. Daarom heb ik deze woorden in capital gebruikt. Ook worden deze woorden steeds groter, 
+terwijl de antwoorden van de hoofdpersoon steeds kleiner worden. 
+- Brenner Sans Light
+Is gebruikt voor de stem van de hoofdpersoon. Hij reageert naar mijn idee vrij kalm op de vragen, 
+en daarom vond ik dit font goed passen. Het is vrij neutraal en 'zacht'. 
+- Brenner Medium Italic
+Wanneer de hoofdpersoon wordt uitgescholden, klinkt het in mijn oren niet persee heel dreigend. 
+Het kwam op mij meer over als een soort nutteloze schreeuw. Daarom heb ik deze zin als een soort
+Mean Girls quote in het roze in beeld gezet. 
+- Brenner Sans Light
+Wanneer de test is afgelopen, komt het op mij weer over op een normaal gesprek. Vandaar dat ik voor dit
+korte stukje een neutrale versie van Brenner heb gekozen. Wat voor mij al weer rustig oogt, alsof 2 mensen 
+gewoon een gesprek houden. 
 
-Dat kan visueel sterker. 
+Verder heb ik de letters in 'Neon' proberen na te maken. Voor mij paste dit goed bij het fragment. 
+In het begin zie je in wat voor omgeving het personage zich bevind, en ik wilde dit de hele video door
+uitbeelden met de tekst. De computerstem heeft een soort glitch/tril effect, hij beweegt bijna op de woorden 
+die de computer zegt. En ik vond dit een mooie toevoeging om uit te beelden dat de woorden van de computer komen. 
 
-En dat gaan jullie doen.
+Ook heb ik in het begin van het gesprek met perspectief gespeeld om zo een wat dynamischer effect aan het gesprek toe te voegen. 
 
-## Leerdoelen
+De keuze om de "Cells" conversatie groter en kleiner te maken met de piep heb ik gemaakt, omdat in mijn 
+ogen de piep heel erg intimiderend en irritant over kwam. Omdat de computer zo indringend de woorden 
+roept wilde ik zijn woorden groter later worden, en de woorden van het personage juist kleiner. Kleiner
+omdat hij dus heel kalm antwoord geeft terwijl de computer er bijna over heen roept. 
 
-- Je kan de kennis over vormgeving die je hebt geleerd tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele typografische beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt het experiment niet geschuwd
+Aan het eind van de piep gaat het beeld op zwart, het is het einde van de test en je kunt weer even op
+adem komen totdat het fragment weer verder gaat. 
 
-## Typografische restricties
-
-Je *moet* kiezen, en je keuze moet je onderbouwen:
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. In dit geval heb je beschikking over normal, **bold** en _italic_.
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn.
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment
-
-Je kan er ook voor kiezen om een eigen, beter fragment te gebruiken. Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
+## Nice to haves
+Het liefste had ik nog veel meer toegevoegd. Maar de opdracht op zichzelf was al een grote uitdaging. 
+Ik ben uiteindelijk wel blij met het resultaat. Niet alles wat in m'n hoofd zat heb ik op beeld kunnen krijgen,
+wat ik eigenlijk ook niet had verwacht. Maar ik had toch wel gehoopt wat sneller te werken, zodat ik wat meer
+animaties bijvoorbeeld had kunnen toevoegen. Ik heb nu gewoon heel erg lang gezocht naar de juiste manier
+van de letters overbrengen en het positioneren van de tekst uberhaupt. 
+ 
