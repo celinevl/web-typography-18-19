@@ -40,5 +40,5 @@ Het liefste had ik nog veel meer toegevoegd. Maar de opdracht op zichzelf was al
 Ik ben uiteindelijk wel blij met het resultaat. Niet alles wat in m'n hoofd zat heb ik op beeld kunnen krijgen,
 wat ik eigenlijk ook niet had verwacht. Maar ik had toch wel gehoopt wat sneller te werken, zodat ik wat meer
 animaties bijvoorbeeld had kunnen toevoegen. Ik heb nu gewoon heel erg lang gezocht naar de juiste manier
-van de letters overbrengen en het positioneren van de tekst uberhaupt. Ik had wat meer met perspectief willen doen, en letter voor letter willen animeren. Maar omdat ik zo lang bezig was met het minimale is mij dat helemaal niet meer gelukt. 
+van de letters overbrengen en het positioneren van de tekst uberhaupt. Ik had wat meer met perspectief willen doen, en meer letter voor letter willen animeren. Maar omdat ik zo lang bezig was met het minimale is mij dat helemaal niet meer gelukt. 
  
