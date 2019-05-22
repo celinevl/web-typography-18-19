@@ -27,8 +27,6 @@ In het begin zie je in wat voor omgeving het personage zich bevind, en ik wilde 
 uitbeelden met de tekst. De computerstem heeft een soort glitch/tril effect, hij beweegt bijna op de woorden 
 die de computer zegt. En ik vond dit een mooie toevoeging om uit te beelden dat de woorden van de computer komen. 
 
-Ook heb ik in het begin van het gesprek met perspectief gespeeld om zo een wat dynamischer effect aan het gesprek toe te voegen. 
-
 De keuze om de "Cells" conversatie groter en kleiner te maken met de piep heb ik gemaakt, omdat in mijn 
 ogen de piep heel erg intimiderend en irritant over kwam. Omdat de computer zo indringend de woorden 
 roept wilde ik zijn woorden groter later worden, en de woorden van het personage juist kleiner. Kleiner
@@ -42,5 +40,5 @@ Het liefste had ik nog veel meer toegevoegd. Maar de opdracht op zichzelf was al
 Ik ben uiteindelijk wel blij met het resultaat. Niet alles wat in m'n hoofd zat heb ik op beeld kunnen krijgen,
 wat ik eigenlijk ook niet had verwacht. Maar ik had toch wel gehoopt wat sneller te werken, zodat ik wat meer
 animaties bijvoorbeeld had kunnen toevoegen. Ik heb nu gewoon heel erg lang gezocht naar de juiste manier
-van de letters overbrengen en het positioneren van de tekst uberhaupt. 
+van de letters overbrengen en het positioneren van de tekst uberhaupt. Ik had wat meer met perspectief willen doen, en letter voor letter willen animeren. Maar omdat ik zo lang bezig was met het minimale is mij dat helemaal niet meer gelukt. 
  
